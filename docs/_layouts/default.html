@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="{{ site.github.url }}"><h1>MuseGAN</h1></a>
+
+        <p style="color:#222; margin:0 0 5px">
+          <a href="https://salu133445.github.io/">Hao-Wen Dong</a>,
+          <a href="https://github.com/wayne391">Wen-Yi Hsiao</a>,
+          <a href="https://richardyang40148.github.io/">Li-Chia Yang</a>,
+          <a href="http://mac.citi.sinica.edu.tw/~yang/">Yi-Hsuan Yang</a>
+        </p>
+
+        <p style="color:#222;">
+          Music and Audio Computing Lab<br>
+          Research Center for IT Innovation<br>
+          Academia Sinica
+        </p>
+
+        <a class="subpage-link" href="{{ site.github.url }}">Home</a><br>
+        <a class="subpage-link" href="abstract">Abstract</a><br>
+        <a class="subpage-link" href="model">Model</a><br>
+        <a class="subpage-link" href="data">Training Data</a><br>
+        <a class="subpage-link" href="results">Results</a><br>
+        <a class="subpage-link" href="papers">Papers</a><br>
+
+        <br><br>
+
+        <p class="view" style="margin:0">View project on <a href="https://github.com/salu133445/musegan">GitHub</a></p>
+        <p class="view" style="margin:0">Learn more about <a href="http://mac.citi.sinica.edu.tw/">MACLab</a></p>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <hr style="margin:15px 0 0">
+        <p style="margin:0"><small>Maintained by <a href="https://salu133445.github.io/">Hao-Wen Dong</a>.</small></p>
+        <p style="margin:0"><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
