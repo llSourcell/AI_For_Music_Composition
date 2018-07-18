@@ -1,6 +1,7 @@
 """Train the model
 """
 import importlib
+import os
 import numpy as np
 import tensorflow as tf
 from config import CONFIG
